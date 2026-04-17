@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Michèle Jensen-Carlén</title>
+
+<style>
+body {
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:black;
+  color:white;
+}
+
+.hero {
+  height:100vh;
+  background:url('YOUR-HERO.jpg') center/cover no-repeat;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+}
+
+.overlay {
+  background:rgba(0,0,0,0.7);
+  padding:40px;
+}
+
+h1 { font-size:48px; letter-spacing:2px; }
+h2 { color:#c8a96a; }
+
+.section {
+  padding:80px 20px;
+  text-align:center;
+}
+
+.books {
+  display:flex;
+  gap:20px;
+  overflow-x:auto;
+}
+
+.book {
+  min-width:200px;
+}
+
+.video {
+  width:80%;
+  margin:auto;
+}
+
+footer {
+  background:#111;
+  padding:30px;
+  text-align:center;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="overlay">
+    <h1>Michèle Jensen-Carlén</h1>
+    <p>Espionage. Conspiracy. Adventure.</p>
+  </div>
+</section>
+
+<!-- VIDEO -->
+<section class="section">
+  <h2>The Sentinel Directorate</h2>
+  <p>Watch the world behind the story</p>
+
+  <video class="video" controls autoplay muted loop>
+    <source src="your-video.mp4" type="video/mp4">
+  </video>
+</section>
+
+<!-- BOOKS -->
+<section class="section">
+  <h2>Featured Novels</h2>
+
+  <div class="books">
+
+    <div class="book">
+      <img src="BOOK1.jpg" width="100%">
+      <p>A high-stakes thriller inspired by real missions.</p>
+      <a href="https://a.co/d/04V6hrfp">Amazon</a>
+    </div>
+
+    <div class="book">
+      <img src="BOOK2.jpg" width="100%">
+      <p>Secrets, power, and hidden forces collide.</p>
+      <a href="https://a.co/d/0foOUbkL">Amazon</a>
+    </div>
+
+    <div class="book">
+      <img src="BOOK3.jpg" width="100%">
+      <p>Where truth and fiction blur dangerously.</p>
+      <a href="https://a.co/d/06RLiPBF">Amazon</a>
+    </div>
+
+    <div class="book">
+      <img src="BOOK4.jpg" width="100%">
+      <p>An international conspiracy unfolds.</p>
+      <a href="https://a.co/d/08QNH03z">Amazon</a>
+    </div>
+
+    <div class="book">
+      <img src="BOOK5.jpg" width="100%">
+      <p>Nothing is what it seems.</p>
+      <a href="https://a.co/d/02Y5DJ0Q">Amazon</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section">
+  <h2>About the Author</h2>
+
+  <p style="max-width:700px;margin:auto;">
+    Michèle Jensen-Carlén is a former journalist turned author of action-adventure and espionage fiction.
+    Drawing from real missions across continents, she transforms reality into gripping narratives of conspiracy and mystery.
+  </p>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="section">
+  <h2>Enter the World Behind the Stories</h2>
+  <p>Get exclusive insights and new releases</p>
+
+  <input type="email" placeholder="Your email" style="padding:10px;">
+  <button style="padding:10px;background:#c8a96a;border:none;">Join</button>
+</section>
+
+<!-- SIGNATURE -->
+<section class="section">
+  <p style="color:#c8a96a;font-size:20px;">
+    Some missions are real. Some truths are hidden.
+  </p>
+</section>
+
+<footer>
+  <p>© Michèle Jensen-Carlén</p>
+</footer>
+
+</body>
+</html>
